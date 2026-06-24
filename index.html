@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Porter - Delivery Aapki, Transport Humara</title>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">P<span>o</span>rter</div>
+  <div class="nav-links">
+    <a href="#how">How it Works</a>
+    <a href="#vehicles">Vehicles</a>
+    <a href="#services">Services</a>
+    <a href="#cities">Cities</a>
+  </div>
+  <button class="nav-cta">Book Now →</button>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg-circles">
+    <div class="circle c1"></div>
+    <div class="circle c2"></div>
+    <div class="circle c3"></div>
+  </div>
+
+  <div class="hero-badge">
+    <span class="badge-dot"></span>
+    India's #1 Logistics Unicorn · $1.2B Valuation
+  </div>
+
+  <h1 class="hero-title">
+    <span class="highlight">Delivery Aapki,</span><br>
+    <span class="accent">Transport Humara</span>
+  </h1>
+
+  <p class="hero-sub">
+    India's fastest-growing on-demand goods delivery platform. Trucks, bikes, EVs — all at your fingertips. Serving 35 cities, 30 lakh+ customers.
+  </p>
+
+  <div class="hero-btns">
+    <button class="btn-primary">📦 Book a Delivery</button>
+    <button class="btn-outline">🚛 Partner with Us</button>
+  </div>
+
+  <!-- ANIMATED ROAD SCENE -->
+  <div class="road-scene">
+    <svg class="road-svg" viewBox="0 0 800 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="800" height="140" fill="url(#skyGrad)" rx="16"/>
+      <defs>
+        <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#0d2045"/>
+          <stop offset="100%" stop-color="#1a3a6e"/>
+        </linearGradient>
+      </defs>
+      <!-- Stars -->
+      <circle cx="50" cy="20" r="1.5" fill="#93c5fd" opacity="0.8"/>
+      <circle cx="120" cy="10" r="1" fill="#93c5fd" opacity="0.6"/>
+      <circle cx="220" cy="30" r="1.5" fill="#93c5fd" opacity="0.9"/>
+      <circle cx="380" cy="15" r="1" fill="#93c5fd"/>
+      <circle cx="500" cy="25" r="1.5" fill="#93c5fd" opacity="0.7"/>
+      <circle cx="650" cy="12" r="1" fill="#93c5fd" opacity="0.8"/>
+      <circle cx="740" cy="35" r="1.5" fill="#93c5fd"/>
+      <!-- Moon -->
+      <circle cx="720" cy="30" r="18" fill="#1e3a8a"/>
+      <circle cx="728" cy="24" r="14" fill="#1a3a6e"/>
+      <!-- Buildings left -->
+      <rect x="20" y="70" width="30" height="70" rx="3" fill="#0f2d5e" opacity="0.8"/>
+      <rect x="22" y="78" width="6" height="5" fill="#3b82f6" opacity="0.5"/>
+      <rect x="32" y="78" width="6" height="5" fill="#3b82f6" opacity="0.5"/>
+      <rect x="22" y="90" width="6" height="5" fill="#3b82f6" opacity="0.3"/>
+      <rect x="55" y="55" width="40" height="85" rx="3" fill="#0d2657" opacity="0.9"/>
+      <rect x="58" y="62" width="8" height="6" fill="#3b82f6" opacity="0.6"/>
+      <rect x="70" y="62" width="8" height="6" fill="#3b82f6" opacity="0.4"/>
+      <rect x="82" y="62" width="8" height="6" fill="#3b82f6" opacity="0.7"/>
+      <rect x="58" y="76" width="8" height="6" fill="#3b82f6" opacity="0.3"/>
+      <rect x="70" y="76" width="8" height="6" fill="#3b82f6" opacity="0.6"/>
+      <rect x="100" y="80" width="25" height="60" rx="3" fill="#0e2a5a" opacity="0.7"/>
+      <!-- Buildings right -->
+      <rect x="650" y="65" width="35" height="75" rx="3" fill="#0d2657" opacity="0.9"/>
+      <rect x="653" y="72" width="7" height="5" fill="#3b82f6" opacity="0.5"/>
+      <rect x="664" y="72" width="7" height="5" fill="#3b82f6" opacity="0.7"/>
+      <rect x="675" y="72" width="7" height="5" fill="#3b82f6" opacity="0.4"/>
+      <rect x="690" y="75" width="45" height="65" rx="3" fill="#0f2d5e" opacity="0.8"/>
+      <rect x="742" y="82" width="30" height="58" rx="3" fill="#0d2657"/>
+      <rect x="770" y="60" width="28" height="80" rx="3" fill="#0e2a5a" opacity="0.9"/>
+      <!-- Road -->
+      <rect x="0" y="140" width="800" height="80" fill="#0a1628"/>
+      <rect x="0" y="140" width="800" height="8" fill="#1a3a6e"/>
+      <line x1="0" y1="180" x2="800" y2="180" stroke="#1e3a8a" stroke-width="2" stroke-dasharray="40 20" class="road-stripe"/>
+      <rect x="0" y="210" width="800" height="10" fill="#0f2040"/>
+      <!-- Animated Truck -->
+      <g class="truck-hero">
+        <rect x="0" y="112" width="100" height="42" rx="4" fill="#2563eb"/>
+        <rect x="68" y="106" width="32" height="48" rx="4" fill="#1d4ed8"/>
+        <rect x="72" y="110" width="24" height="18" rx="3" fill="#93c5fd" opacity="0.8"/>
+        <text x="30" y="137" font-size="11" fill="white" font-weight="700" font-family="Arial">PORTER</text>
+        <circle cx="20" cy="157" r="10" fill="#0a1628" stroke="#60a5fa" stroke-width="2.5"/>
+        <circle cx="20" cy="157" r="4" fill="#1a3a6e" class="wheel-spin"/>
+        <circle cx="75" cy="157" r="10" fill="#0a1628" stroke="#60a5fa" stroke-width="2.5"/>
+        <circle cx="75" cy="157" r="4" fill="#1a3a6e" class="wheel-spin"/>
+        <rect x="98" y="120" width="4" height="6" rx="2" fill="#fef08a"/>
+        <rect x="5" y="100" width="62" height="14" rx="3" fill="#1d4ed8"/>
+        <rect x="8" y="102" width="56" height="10" rx="2" fill="#2563eb"/>
+      </g>
+      <!-- Animated Bike -->
+      <g class="bike-hero" style="transform: translateX(800px) scaleX(-1);">
+        <rect x="0" y="138" width="45" height="16" rx="8" fill="#f59e0b"/>
+        <circle cx="30" cy="130" r="8" fill="#93c5fd"/>
+        <rect x="24" y="134" width="14" height="12" rx="4" fill="#1d4ed8"/>
+        <rect x="2" y="132" width="16" height="14" rx="3" fill="#2563eb"/>
+        <circle cx="8" cy="156" r="8" fill="#0a1628" stroke="#f59e0b" stroke-width="2"/>
+        <circle cx="8" cy="156" r="3" fill="#f59e0b" class="wheel-spin"/>
+        <circle cx="38" cy="156" r="8" fill="#0a1628" stroke="#f59e0b" stroke-width="2"/>
+        <circle cx="38" cy="156" r="3" fill="#f59e0b" class="wheel-spin"/>
+        <rect x="-2" y="142" width="3" height="5" rx="1.5" fill="#fef9c3"/>
+      </g>
+      <!-- Location pins -->
+      <circle cx="150" cy="50" r="12" fill="#2563eb" opacity="0.9"/>
+      <text x="150" y="54" text-anchor="middle" font-size="10" fill="white">📍</text>
+      <line x1="150" y1="62" x2="150" y2="140" stroke="#3b82f6" stroke-width="1" stroke-dasharray="4 3" opacity="0.5"/>
+      <circle cx="600" cy="45" r="12" fill="#f59e0b" opacity="0.9"/>
+      <text x="600" y="49" text-anchor="middle" font-size="10" fill="white">📦</text>
+      <line x1="600" y1="57" x2="600" y2="140" stroke="#f59e0b" stroke-width="1" stroke-dasharray="4 3" opacity="0.5"/>
+      <!-- Floating packages -->
+      <g class="floating-pkg" style="animation-delay:0s">
+        <rect x="310" y="20" width="28" height="24" rx="4" fill="#1d4ed8"/>
+        <line x1="310" y1="32" x2="338" y2="32" stroke="#3b82f6" stroke-width="1"/>
+        <line x1="324" y1="20" x2="324" y2="44" stroke="#3b82f6" stroke-width="1"/>
+      </g>
+      <g class="floating-pkg" style="animation-delay:1.5s">
+        <rect x="450" y="30" width="22" height="18" rx="3" fill="#f59e0b" opacity="0.9"/>
+        <line x1="450" y1="39" x2="472" y2="39" stroke="#fbbf24" stroke-width="1"/>
+      </g>
+    </svg>
+  </div>
+</section>
+
+<!-- STATS BAR -->
+<div class="stats-bar reveal">
+  <div class="stat"><div class="stat-num" data-target="35">0</div><div class="stat-label">Cities Covered</div></div>
+  <div class="stat"><div class="stat-num" data-target="30">0</div><div class="stat-label">Lakh+ Customers</div></div>
+  <div class="stat"><div class="stat-num" data-target="3">0</div><div class="stat-label">Lakh Driver Partners</div></div>
+  <div class="stat"><div class="stat-num" data-target="20">0</div><div class="stat-label">Lakh MSMEs Served</div></div>
+  <div class="stat"><div class="stat-num" data-target="1200">0</div><div class="stat-label">Crore+ Valuation ($)</div></div>
+</div>
+
+<!-- HOW IT WORKS -->
+<section id="how">
+  <div class="reveal">
+    <div class="section-tag">How it Works</div>
+    <h2 class="section-title">Book. Track. Deliver. Simple.</h2>
+    <p class="section-desc">Three easy steps to move anything, anywhere in your city — all from your phone.</p>
+  </div>
+  <div class="steps-grid">
+    <div class="step-card reveal">
+      <div class="step-num">01</div>
+      <div class="step-icon">📱</div>
+      <h3>Open the App</h3>
+      <p>Download Porter app on iOS or Android. Enter pickup & drop location in seconds.</p>
+    </div>
+    <div class="step-card reveal">
+      <div class="step-num">02</div>
+      <div class="step-icon">🚛</div>
+      <h3>Choose Vehicle</h3>
+      <p>Pick from bikes, mini trucks, tempos, or large trucks based on your load size.</p>
+    </div>
+    <div class="step-card reveal">
+      <div class="step-num">03</div>
+      <div class="step-icon">📍</div>
+      <h3>Live Track</h3>
+      <p>GPS-powered real-time tracking. Know exactly where your goods are, every second.</p>
+    </div>
+    <div class="step-card reveal">
+      <div class="step-num">04</div>
+      <div class="step-icon">✅</div>
+      <h3>Delivered!</h3>
+      <p>Safe, on-time delivery with digital proof. Pay transparently — no hidden charges.</p>
+    </div>
+  </div>
+</section>
+
+<!-- VEHICLES -->
+<section id="vehicles">
+  <div class="reveal">
+    <div class="section-tag">Our Fleet</div>
+    <h2 class="section-title">Every Vehicle for Every Need</h2>
+    <p class="section-desc">From a small parcel to a full household — we've got the right vehicle for you.</p>
+  </div>
+  <div class="vehicles-grid">
+    <!-- Bike -->
+    <div class="vehicle-card reveal">
+      <svg class="vehicle-svg" width="160" height="100" viewBox="0 0 160 100">
+        <circle cx="35" cy="72" r="22" fill="none" stroke="#f59e0b" stroke-width="4"/>
+        <circle cx="35" cy="72" r="8" fill="#0a1628" stroke="#f59e0b" stroke-width="2"/>
+        <g transform="translate(35,72)" style="animation:spin 0.8s linear infinite; transform-origin:0 0">
+          <line x1="0" y1="-8" x2="0" y2="8" stroke="#f59e0b" stroke-width="2"/>
+          <line x1="-8" y1="0" x2="8" y2="0" stroke="#f59e0b" stroke-width="2"/>
+        </g>
+        <circle cx="125" cy="72" r="22" fill="none" stroke="#f59e0b" stroke-width="4"/>
+        <circle cx="125" cy="72" r="8" fill="#0a1628" stroke="#f59e0b" stroke-width="2"/>
+        <g transform="translate(125,72)" style="animation:spin 0.8s linear infinite 0.1s; transform-origin:0 0">
+          <line x1="0" y1="-8" x2="0" y2="8" stroke="#f59e0b" stroke-width="2"/>
+          <line x1="-8" y1="0" x2="8" y2="0" stroke="#f59e0b" stroke-width="2"/>
+        </g>
+        <line x1="35" y1="72" x2="80" y2="40" stroke="#f59e0b" stroke-width="3"/>
+        <line x1="80" y1="40" x2="125" y2="72" stroke="#f59e0b" stroke-width="3"/>
+        <line x1="80" y1="40" x2="80" y2="30" stroke="#f59e0b" stroke-width="3"/>
+        <rect x="72" y="25" width="20" height="5" rx="2.5" fill="#f59e0b"/>
+        <ellipse cx="95" cy="38" rx="10" ry="4" fill="#f59e0b" opacity="0.8"/>
+        <rect x="40" y="42" width="28" height="22" rx="3" fill="#2563eb"/>
+        <line x1="40" y1="53" x2="68" y2="53" stroke="#60a5fa" stroke-width="1"/>
+        <circle cx="88" cy="22" r="9" fill="#93c5fd"/>
+        <rect x="82" y="29" width="14" height="14" rx="3" fill="#1d4ed8"/>
+      </svg>
+      <h3>Two-Wheeler</h3>
+      <p>Fast parcel delivery for small packages, documents & food across the city.</p>
+      <span class="vehicle-tag">Up to 20 kg</span>
+    </div>
+    <!-- Mini Truck -->
+    <div class="vehicle-card reveal">
+      <svg class="vehicle-svg" width="160" height="100" viewBox="0 0 160 100">
+        <rect x="5" y="38" width="100" height="45" rx="5" fill="#2563eb"/>
+        <rect x="90" y="28" width="60" height="55" rx="5" fill="#1d4ed8"/>
+        <rect x="95" y="33" width="50" height="28" rx="4" fill="#93c5fd" opacity="0.7"/>
+        <text x="45" y="64" text-anchor="middle" font-size="9" fill="white" font-weight="700">PORTER</text>
+        <circle cx="30" cy="87" r="14" fill="#0a1628" stroke="#60a5fa" stroke-width="3"/>
+        <g transform="translate(30,87)" style="animation:spin 0.6s linear infinite; transform-origin:0 0">
+          <line x1="0" y1="-7" x2="0" y2="7" stroke="#60a5fa" stroke-width="2"/>
+          <line x1="-7" y1="0" x2="7" y2="0" stroke="#60a5fa" stroke-width="2"/>
+        </g>
+        <circle cx="100" cy="87" r="14" fill="#0a1628" stroke="#60a5fa" stroke-width="3"/>
+        <g transform="translate(100,87)" style="animation:spin 0.6s linear infinite 0.2s; transform-origin:0 0">
+          <line x1="0" y1="-7" x2="0" y2="7" stroke="#60a5fa" stroke-width="2"/>
+          <line x1="-7" y1="0" x2="7" y2="0" stroke="#60a5fa" stroke-width="2"/>
+        </g>
+        <circle cx="138" cy="87" r="14" fill="#0a1628" stroke="#60a5fa" stroke-width="3"/>
+        <g transform="translate(138,87)" style="animation:spin 0.6s linear infinite 0.1s; transform-origin:0 0">
+          <line x1="0" y1="-7" x2="0" y2="7" stroke="#60a5fa" stroke-width="2"/>
+          <line x1="-7" y1="0" x2="7" y2="0" stroke="#60a5fa" stroke-width="2"/>
+        </g>
+        <rect x="148" y="45" width="6" height="8" rx="3" fill="#fef08a"/>
+        <rect x="148" y="58" width="6" height="8" rx="3" fill="#fef08a"/>
+      </svg>
+      <h3>Mini Truck / Tempo</h3>
+      <p>Perfect for household items, furniture, and MSME goods movement.</p>
+      <span class="vehicle-tag">Up to 1,000 kg</span>
+    </div>
+    <!-- Large Truck -->
+    <div class="vehicle-card reveal">
+      <svg class="vehicle-svg" width="160" height="100" viewBox="0 0 160 100">
+        <rect x="2" y="20" width="110" height="60" rx="4" fill="#1d4ed8"/>
+        <rect x="108" y="30" width="50" height="50" rx="4" fill="#1e40af"/>
+        <rect x="112" y="35" width="42" height="24" rx="3" fill="#93c5fd" opacity="0.6"/>
+        <rect x="2" y="20" width="110" height="4" rx="2" fill="#3b82f6"/>
+        <rect x="2" y="72" width="110" height="4" rx="2" fill="#3b82f6"/>
+        <line x1="55" y1="24" x2="55" y2="76" stroke="#3b82f6" stroke-width="1.5" opacity="0.6"/>
+        <text x="35" y="53" text-anchor="middle" font-size="8" fill="white" font-weight="700">PORTER</text>
+        <text x="35" y="64" text-anchor="middle" font-size="7" fill="#93c5fd">LOGISTICS</text>
+        <circle cx="28" cy="86" r="14" fill="#0a1628" stroke="#3b82f6" stroke-width="3"/>
+        <g transform="translate(28,86)" style="animation:spin 0.5s linear infinite; transform-origin:0 0">
+          <line x1="0" y1="-7" x2="0" y2="7" stroke="#3b82f6" stroke-width="2"/>
+          <line x1="-7" y1="0" x2="7" y2="0" stroke="#3b82f6" stroke-width="2"/>
+        </g>
+        <circle cx="75" cy="86" r="14" fill="#0a1628" stroke="#3b82f6" stroke-width="3"/>
+        <g transform="translate(75,86)" style="animation:spin 0.5s linear infinite 0.15s; transform-origin:0 0">
+          <line x1="0" y1="-7" x2="0" y2="7" stroke="#3b82f6" stroke-width="2"/>
+          <line x1="-7" y1="0" x2="7" y2="0" stroke="#3b82f6" stroke-width="2"/>
+        </g>
+        <circle cx="135" cy="86" r="14" fill="#0a1628" stroke="#3b82f6" stroke-width="3"/>
+        <g transform="translate(135,86)" style="animation:spin 0.5s linear infinite 0.05s; transform-origin:0 0">
+          <line x1="0" y1="-7" x2="0" y2="7" stroke="#3b82f6" stroke-width="2"/>
+          <line x1="-7" y1="0" x2="7" y2="0" stroke="#3b82f6" stroke-width="2"/>
+        </g>
+        <rect x="154" y="42" width="5" height="8" rx="2.5" fill="#fef08a"/>
+      </svg>
+      <h3>Large Truck</h3>
+      <p>Heavy-duty transport for bulk goods, industrial shipments & enterprise logistics.</p>
+      <span class="vehicle-tag">Up to 9,000 kg</span>
+    </div>
+    <!-- EV -->
+    <div class="vehicle-card reveal">
+      <svg class="vehicle-svg" width="160" height="100" viewBox="0 0 160 100">
+        <rect x="10" y="42" width="90" height="36" rx="10" fill="#0ea5e9"/>
+        <rect x="25" y="30" width="60" height="22" rx="8" fill="#0284c7"/>
+        <rect x="28" y="33" width="54" height="14" rx="5" fill="#7dd3fc" opacity="0.8"/>
+        <text x="55" y="64" text-anchor="middle" font-size="14" fill="white">⚡</text>
+        <circle cx="30" cy="82" r="12" fill="#0a1628" stroke="#38bdf8" stroke-width="3"/>
+        <g transform="translate(30,82)" style="animation:spin 0.7s linear infinite; transform-origin:0 0">
+          <circle r="4" fill="#38bdf8"/>
+        </g>
+        <circle cx="88" cy="82" r="12" fill="#0a1628" stroke="#38bdf8" stroke-width="3"/>
+        <g transform="translate(88,82)" style="animation:spin 0.7s linear infinite 0.1s; transform-origin:0 0">
+          <circle r="4" fill="#38bdf8"/>
+        </g>
+        <rect x="105" y="50" width="40" height="18" rx="4" fill="#022c22"/>
+        <rect x="107" y="52" width="30" height="14" rx="3" fill="#14532d"/>
+        <rect x="109" y="54" width="20" height="10" rx="2" fill="#22c55e"/>
+        <text x="119" y="62" text-anchor="middle" font-size="8" fill="white" font-weight="700">ECO</text>
+      </svg>
+      <h3>Electric Vehicle</h3>
+      <p>Eco-friendly deliveries with Porter's growing EV fleet. Greener logistics for tomorrow.</p>
+      <span class="vehicle-tag">🌱 Zero Emission</span>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="reveal">
+    <div class="section-tag">Services</div>
+    <h2 class="section-title">Everything You Need to Move</h2>
+    <p class="section-desc">From instant deliveries to enterprise logistics — Porter does it all on one platform.</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card reveal">
+      <div class="service-icon">🏙️</div>
+      <h3>Intra-City Delivery</h3>
+      <p>On-demand same-day delivery within your city with transparent pricing.</p>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-icon">🛣️</div>
+      <h3>Inter-City Courier</h3>
+      <p>Reliable delivery between cities with full tracking and notification alerts.</p>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-icon">📦</div>
+      <h3>Packers & Movers</h3>
+      <p>Relocation made easy — home, office or factory. Fully handled.</p>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-icon">🏭</div>
+      <h3>Porter Enterprise</h3>
+      <p>Dedicated logistics for large businesses, FMCGs, and D2C brands like ITC, Marico.</p>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-icon">🏬</div>
+      <h3>Warehousing</h3>
+      <p>Integrated warehousing solutions linked directly to your delivery needs.</p>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-icon">🤝</div>
+      <h3>MSME Logistics</h3>
+      <p>Affordable, accessible logistics for small businesses and startups across India.</p>
+    </div>
+  </div>
+</section>
+
+<!-- LIVE TRACKER -->
+<section id="tracker">
+  <div class="reveal">
+    <div class="section-tag">Live Tracking</div>
+    <h2 class="section-title">Know Where Your Goods Are</h2>
+    <p class="section-desc" style="margin: 0 auto 48px;">Real-time GPS tracking, auto-notifications, and transparent delivery updates.</p>
+  </div>
+  <div class="tracker-demo reveal">
+    <div class="tracker-map">
+      <svg width="100%" height="100%" viewBox="0 0 520 240" preserveAspectRatio="none">
+        <defs>
+          <pattern id="mapgrid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a3a6e" stroke-width="0.5"/>
+          </pattern>
+        </defs>
+        <rect width="520" height="240" fill="#0d1f3c"/>
+        <rect width="520" height="240" fill="url(#mapgrid)"/>
+        <line x1="0" y1="120" x2="520" y2="120" stroke="#1e3a8a" stroke-width="8"/>
+        <line x1="260" y1="0" x2="260" y2="240" stroke="#1e3a8a" stroke-width="6"/>
+        <line x1="0" y1="60" x2="520" y2="60" stroke="#1e3a8a" stroke-width="3"/>
+        <line x1="0" y1="180" x2="520" y2="180" stroke="#1e3a8a" stroke-width="3"/>
+        <line x1="130" y1="0" x2="130" y2="240" stroke="#1e3a8a" stroke-width="3"/>
+        <line x1="390" y1="0" x2="390" y2="240" stroke="#1e3a8a" stroke-width="3"/>
+        <path d="M 60 120 Q 200 60 340 120 T 460 100" stroke="#3b82f6" stroke-width="3" fill="none" stroke-dasharray="8 4" opacity="0.8"/>
+        <circle cx="60" cy="120" r="8" fill="#22c55e"/>
+        <circle cx="60" cy="120" r="14" fill="none" stroke="#22c55e" stroke-width="2" opacity="0.5" style="animation:pulse-out 2s infinite"/>
+        <circle cx="460" cy="100" r="8" fill="#ef4444"/>
+        <circle cx="460" cy="100" r="14" fill="none" stroke="#ef4444" stroke-width="2" opacity="0.5" style="animation:pulse-out 2s infinite 0.5s"/>
+        <g style="animation:drive-map 6s linear infinite; position:relative">
+          <rect x="-15" y="112" width="30" height="16" rx="3" fill="#2563eb"/>
+          <rect x="12" y="108" width="14" height="20" rx="3" fill="#1d4ed8"/>
+          <circle cx="-8" cy="130" r="5" fill="#0a1628" stroke="#60a5fa" stroke-width="1.5"/>
+          <circle cx="12" cy="130" r="5" fill="#0a1628" stroke="#60a5fa" stroke-width="1.5"/>
+        </g>
+      </svg>
+    </div>
+    <div class="tracker-info">
+      <div class="tracker-stat"><strong>4.8 ⭐</strong><span>App Rating</span></div>
+      <div class="tracker-stat"><strong>~12 min</strong><span>Avg. Driver Arrival</span></div>
+      <div class="tracker-stat"><strong>99.2%</strong><span>On-Time Delivery</span></div>
+      <div class="tracker-stat"><strong>Real-time</strong><span>GPS Tracking</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- CITIES -->
+<section id="cities">
+  <div class="reveal">
+    <div class="section-tag">Coverage</div>
+    <h2 class="section-title">Covering India's Heartbeat</h2>
+    <p class="section-desc" style="margin: 0 auto 40px;">35 cities and growing — Porter is wherever your business takes you.</p>
+  </div>
+  <div class="cities-marquee reveal">
+    <div class="cities-track">
+      <span class="city-pill"><span class="city-dot"></span>Mumbai</span>
+      <span class="city-pill"><span class="city-dot"></span>Delhi</span>
+      <span class="city-pill"><span class="city-dot"></span>Bangalore</span>
+      <span class="city-pill"><span class="city-dot"></span>Hyderabad</span>
+      <span class="city-pill"><span class="city-dot"></span>Chennai</span>
+      <span class="city-pill"><span class="city-dot"></span>Pune</span>
+      <span class="city-pill"><span class="city-dot"></span>Jaipur</span>
+      <span class="city-pill"><span class="city-dot"></span>Kolkata</span>
+      <span class="city-pill"><span class="city-dot"></span>Ahmedabad</span>
+      <span class="city-pill"><span class="city-dot"></span>Surat</span>
+      <span class="city-pill"><span class="city-dot"></span>Lucknow</span>
+      <span class="city-pill"><span class="city-dot"></span>Indore</span>
+      <span class="city-pill"><span class="city-dot"></span>Mumbai</span>
+      <span class="city-pill"><span class="city-dot"></span>Delhi</span>
+      <span class="city-pill"><span class="city-dot"></span>Bangalore</span>
+      <span class="city-pill"><span class="city-dot"></span>Hyderabad</span>
+      <span class="city-pill"><span class="city-dot"></span>Chennai</span>
+      <span class="city-pill"><span class="city-dot"></span>Pune</span>
+      <span class="city-pill"><span class="city-dot"></span>Jaipur</span>
+      <span class="city-pill"><span class="city-dot"></span>Kolkata</span>
+    </div>
+  </div>
+  <div class="cities-marquee reveal">
+    <div class="cities-track2">
+      <span class="city-pill"><span class="city-dot"></span>Bhopal</span>
+      <span class="city-pill"><span class="city-dot"></span>Nagpur</span>
+      <span class="city-pill"><span class="city-dot"></span>Chandigarh</span>
+      <span class="city-pill"><span class="city-dot"></span>Coimbatore</span>
+      <span class="city-pill"><span class="city-dot"></span>Kochi</span>
+      <span class="city-pill"><span class="city-dot"></span>Visakhapatnam</span>
+      <span class="city-pill"><span class="city-dot"></span>Noida</span>
+      <span class="city-pill"><span class="city-dot"></span>Gurgaon</span>
+      <span class="city-pill"><span class="city-dot"></span>Vadodara</span>
+      <span class="city-pill"><span class="city-dot"></span>Patna</span>
+      <span class="city-pill"><span class="city-dot"></span>Bhopal</span>
+      <span class="city-pill"><span class="city-dot"></span>Nagpur</span>
+      <span class="city-pill"><span class="city-dot"></span>Chandigarh</span>
+      <span class="city-pill"><span class="city-dot"></span>Coimbatore</span>
+      <span class="city-pill"><span class="city-dot"></span>Kochi</span>
+      <span class="city-pill"><span class="city-dot"></span>Visakhapatnam</span>
+      <span class="city-pill"><span class="city-dot"></span>Noida</span>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews">
+  <div class="reveal">
+    <div class="section-tag">Testimonials</div>
+    <h2 class="section-title">Trusted by Millions</h2>
+    <p class="section-desc">From small kirana stores to large enterprises — here's what they say.</p>
+  </div>
+  <div class="reviews-grid">
+    <div class="review-card reveal">
+      <div class="stars">★★★★★</div>
+      <p class="review-text">"Porter has completely changed how I run my furniture business. Same-day delivery, live tracking — my customers love it!"</p>
+      <div class="reviewer">
+        <div class="reviewer-avatar">RK</div>
+        <div><div class="reviewer-name">Rajesh Kumar</div><div class="reviewer-role">Furniture Business Owner, Jaipur</div></div>
+      </div>
+    </div>
+    <div class="review-card reveal">
+      <div class="stars">★★★★★</div>
+      <p class="review-text">"As a D2C brand, Porter's enterprise service handles all our last-mile delivery. Transparent pricing, zero hidden fees."</p>
+      <div class="reviewer">
+        <div class="reviewer-avatar">PS</div>
+        <div><div class="reviewer-name">Priya Sharma</div><div class="reviewer-role">Co-founder, EcoHome D2C, Bangalore</div></div>
+      </div>
+    </div>
+    <div class="review-card reveal">
+      <div class="stars">★★★★★</div>
+      <p class="review-text">"I use Porter for shifting my office every year. The packers and movers service is excellent and super affordable."</p>
+      <div class="reviewer">
+        <div class="reviewer-avatar">AM</div>
+        <div><div class="reviewer-name">Arjun Mehta</div><div class="reviewer-role">Startup Founder, Mumbai</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- UNICORN -->
+<section id="unicorn">
+  <div class="reveal">
+    <div class="unicorn-badge">🦄 India's Unicorn 2025 · $1.2 Billion Valuation</div>
+    <h2 class="section-title" style="text-align:center">From a Laptop &amp; a Dream<br>to Moving a Billion Dreams</h2>
+    <p class="section-desc" style="text-align:center; margin: 16px auto 40px;">Founded by two IIT Kharagpur alumni in 2014, Porter became India's second unicorn in 2025 — backed by Tiger Global, Peak XV Partners &amp; more.</p>
+    <div class="milestones reveal">
+      <div class="milestone"><div class="milestone-num">2014</div><div class="milestone-label">Founded in Mumbai</div></div>
+      <div class="milestone"><div class="milestone-num">$200M</div><div class="milestone-label">Series F Raised</div></div>
+      <div class="milestone"><div class="milestone-num">EY Award</div><div class="milestone-label">Startup of the Year</div></div>
+      <div class="milestone"><div class="milestone-num">4.8 ★</div><div class="milestone-label">Google Play Rating</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- APP CTA -->
+<section id="app">
+  <div class="app-content reveal">
+    <div class="section-tag">Get the App</div>
+    <h2 class="section-title">Move Anything, Anytime</h2>
+    <p class="section-desc" style="margin-bottom:0">Download the Porter app and get your first delivery sorted in under 2 minutes. Available for iOS and Android.</p>
+    <div class="app-btns">
+      <div class="app-btn">
+        <span style="font-size:28px">🍎</span>
+        <div class="app-btn-text"><small>Download on the</small><strong>App Store</strong></div>
+      </div>
+      <div class="app-btn">
+        <span style="font-size:28px">▶️</span>
+        <div class="app-btn-text"><small>Get it on</small><strong>Google Play</strong></div>
+      </div>
+    </div>
+  </div>
+  <div class="app-phone reveal">
+    <div class="phone-screen">
+      <div class="phone-notch"></div>
+      <div style="background:#0a1628;border-radius:12px;padding:14px;margin-bottom:12px">
+        <div style="font-size:10px;color:#60a5fa;font-weight:700;margin-bottom:8px">📍 FROM</div>
+        <div style="font-size:12px;color:#e2e8f0">Malviya Nagar, Jaipur</div>
+      </div>
+      <div style="background:#0a1628;border-radius:12px;padding:14px;margin-bottom:12px">
+        <div style="font-size:10px;color:#f59e0b;font-weight:700;margin-bottom:8px">📦 TO</div>
+        <div style="font-size:12px;color:#e2e8f0">Sindhi Camp, Jaipur</div>
+      </div>
+      <div class="phone-map-preview">
+        <svg width="100%" height="100%" viewBox="0 0 180 140">
+          <rect width="180" height="140" fill="#0d1f3c"/>
+          <line x1="0" y1="70" x2="180" y2="70" stroke="#1e3a8a" stroke-width="6"/>
+          <line x1="90" y1="0" x2="90" y2="140" stroke="#1e3a8a" stroke-width="4"/>
+          <path d="M 20 70 Q 90 30 160 65" stroke="#3b82f6" stroke-width="2.5" fill="none" stroke-dasharray="6 3"/>
+          <circle cx="20" cy="70" r="6" fill="#22c55e"/>
+          <circle cx="160" cy="65" r="6" fill="#ef4444"/>
+          <g class="phone-truck-anim">
+            <rect x="-10" y="63" width="20" height="10" rx="2" fill="#2563eb"/>
+            <rect x="8" y="61" width="8" height="12" rx="2" fill="#1d4ed8"/>
+            <circle cx="-5" cy="75" r="4" fill="#0a1628" stroke="#60a5fa" stroke-width="1"/>
+            <circle cx="8" cy="75" r="4" fill="#0a1628" stroke="#60a5fa" stroke-width="1"/>
+          </g>
+        </svg>
+      </div>
+      <div style="background:#2563eb;border-radius:12px;padding:14px;text-align:center">
+        <div style="font-size:13px;color:white;font-weight:700">🚛 Book Now — ₹149</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <h2>P<span>o</span>rter</h2>
+      <p>India's leading on-demand logistics platform. Moving a billion dreams — one delivery at a time.</p>
+      <p style="margin-top:12px;font-size:13px;color:#475569">📍 Mumbai, India &nbsp;·&nbsp; porter.in</p>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <a href="#">Intra-City Delivery</a>
+      <a href="#">Inter-City Courier</a>
+      <a href="#">Packers &amp; Movers</a>
+      <a href="#">Warehousing</a>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="#">About Us</a>
+      <a href="#">Careers</a>
+      <a href="#">Press</a>
+      <a href="#">Investors</a>
+    </div>
+    <div class="footer-col">
+      <h4>Partner</h4>
+      <a href="#">Drive with Porter</a>
+      <a href="#">Porter Enterprise</a>
+      <a href="#">MSME Program</a>
+      <a href="#">Contact Us</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Porter. All rights reserved. | Delivery Aapki, Transport Humara 💙</p>
+    <p style="color:#3b82f6">🦄 India's $1.2B Logistics Unicorn</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
